@@ -1,0 +1,6 @@
+[submodule "FinderInference"]
+	path = FinderInference
+	url = https://github.com/TrayFinder/FinderInference
+[submodule "FinderBack"]
+	path = FinderBack
+	url = https://github.com/TrayFinder/FinderBack
