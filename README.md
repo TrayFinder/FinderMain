@@ -23,8 +23,8 @@ TrayFinder/
 ### 1. Clone o repositório e os submódulos
 
 ```bash
-git clone --recurse-submodules https://github.com/seu-usuario/TrayFinder.git
-cd TrayFinder
+git clone --recurse-submodules https://github.com/TrayFinder/FinderMain.git
+cd FinderMain
 ````
 
 > Se já clonou o repositório sem os submódulos, use:
