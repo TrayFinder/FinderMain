@@ -2,6 +2,15 @@
 
 Este projeto integra um sistema de recomendação de produtos com busca por similaridade visual, combinando uma API FastAPI (`FinderBack`) e um motor de inferência baseado em embeddings com ScaNN e ONNX (`FinderInference`).
 
+---
+
+## 📦 Requirements
+
+- [Docker CE](https://docs.docker.com/get-docker/)
+- [Docker Compose CLI](https://docs.docker.com/compose/)
+
+---
+
 ## 📦 Estrutura do Repositório
 
 ```
@@ -35,9 +44,11 @@ git submodule update --init --recursive
 
 ---
 
-### 2. Configure seu `.env`
+### 2. Personalize o Projeto
 
-Personalize o arquivo `.env` na raiz do projeto com as variáveis de ambiente necessárias:
+Modifique o arquivo `.env` na raiz do projeto com as variáveis de ambiente necessárias.
+Adicione os modelos na pasta `FinderMain/FinderInference/production/assets/models`
+
 
 ---
 
